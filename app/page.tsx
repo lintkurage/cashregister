@@ -1,7 +1,13 @@
+import RootLayout from "./layout";
+import Header from "./header";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>イベント用レジアプリ</h1>
-    </main>
+    <RootLayout>
+      <Header></Header>
+      <main>
+        <h1>イベント用レジアプリ</h1>
+      </main>
+    </RootLayout>
   );
 }
